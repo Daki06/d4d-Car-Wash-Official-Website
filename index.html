@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>D4D Car Wash | Ga‑Rankuwa</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <!-- =================== HEADER =================== -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <h1 class="logo"><span>D4D</span> Car Wash</h1>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#services">Services</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#payment">Payment</a></li>
+          <li><a href="#contact">Book</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- =================== HERO =================== -->
+  <section class="hero">
+    <div class="hero-overlay">
+      <div class="container hero-content">
+        <h2>Your Ride, Royal Treatment</h2>
+        <p>Premium hand‑wash & detailing in Ga‑Rankuwa since 2025.</p>
+        <a href="#contact" class="btn btn-primary">Book a Wash on WhatsApp</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- =================== SERVICES =================== -->
+  <section id="services" class="section">
+    <div class="container">
+      <h3 class="section-title">Our Services</h3>
+      <div class="cards">
+        <div class="card">
+          <h4>Exterior Wash</h4>
+          <p>High‑pressure pre‑rinse, foam bath, hand wash, and gloss finish.</p>
+        </div>
+        <div class="card">
+          <h4>Interior Valet</h4>
+          <p>Full vacuum, dashboard & upholstery clean, sanitise & fragrance.</p>
+        </div>
+        <div class="card">
+          <h4>Executive Detail</h4>
+          <p>Complete exterior & interior rejuvenation with machine polish & wax.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =================== PRICING =================== -->
+  <section id="pricing" class="section alt">
+    <div class="container">
+      <h3 class="section-title">Pricing (incl. VAT)</h3>
+      <table class="pricing-table">
+        <thead>
+          <tr><th>Service</th><th>Sedan/Hatch</th><th>SUV/Bakkie</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Exterior Wash</td><td>R 90</td><td>R 110</td></tr>
+          <tr><td>Interior Valet</td><td>R 120</td><td>R 150</td></tr>
+          <tr><td>Executive Detail</td><td>R 300</td><td>R 350</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- =================== PAYMENT =================== -->
+  <section id="payment" class="section">
+    <div class="container">
+      <h3 class="section-title">Payment Options</h3>
+      <p>We accept secure EFT or cash on completion.</p>
+
+      <div class="bank-details">
+        <h4>Banking Details</h4>
+        <ul>
+          <li><strong>Bank:</strong> Absa</li>
+          <li><strong>Account Name:</strong> Dakalo Gift Munzedzi</li>
+          <li><strong>Account Type:</strong> Current Account</li>
+          <li><strong>Account Number:</strong> 411 822 1899</li>
+          <li><strong>Branch Code:</strong> 632 005</li>
+          <li><strong>Reference:</strong> Vehicle Reg & Service</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- =================== CONTACT / BOOKING =================== -->
+  <section id="contact" class="section alt">
+    <div class="container">
+      <h3 class="section-title">Book Your Wash</h3>
+      <form id="bookingForm" class="booking-form">
+        <div class="form-group">
+          <label for="name">Full Name</label>
+          <input type="text" id="name" required placeholder="e.g. Jane Doe">
+        </div>
+        <div class="form-group">
+          <label for="phone">Contact Number</label>
+          <input type="tel" id="phone" required placeholder="e.g. 071 234 5678">
+        </div>
+        <div class="form-group">
+          <label for="service">Service Needed</label>
+          <select id="service" required>
+            <option value="">-- Select --</option>
+            <option>Exterior Wash</option>
+            <option>Interior Valet</option>
+            <option>Executive Detail</option>
+          </select>
+        </div>
+        <button type="submit" class="btn btn-primary">Send to WhatsApp</button>
+      </form>
+      <p id="successMsg" class="success-msg"></p>
+    </div>
+  </section>
+
+  <!-- =================== FOOTER =================== -->
+  <footer class="site-footer">
+    <div class="container footer-flex">
+      <div class="footer-info">
+        <h4>D4D Car Wash</h4>
+        <p>278 Ext 23, Phase 3<br>Ga‑Rankuwa, 0208, South Africa</p>
+        <p><a href="https://wa.me/27824398370" target="_blank">WhatsApp: 082 439 8370</a></p>
+      </div>
+      <div class="footer-copy">
+        <p>© <span id="year">2025</span> D4D Car Wash. Crafted with pride in Mzansi.</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
